@@ -1,34 +1,43 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <!-- App title -->
+    <title>Responsive Pure CSS Menu</title>
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: #FFE5CA;">
-    <div class="nav-education">
-        <div class="nav-header">
-            <div class="nav-title">
-            Avas Ali
-            </div>
-        </div>
-    <div class="nav-btn">
-        <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-  </div>
-  <div class="nav-links">
-    <a href="/">Home</a>
-    <a href="/education.html">Education</a>
-    <a href="/experience.html">Experience</a>
-    <a href="/skills.html">Skills</a>
-    <a href="/projects.html">Projects</a>
-  </div>
-</div>
-
+<body>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo">ALI</a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="/education.html">About Me</a> </li>
+                <li><a href="/education.html">Education</a></li>
+                <li><a href="/experience.html">Experience</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/contactme.html">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <main>
+        <article>
+            <h1>
+                Some content
+            </h1>
+            <p>
+                More Content
+            </p>
+        </article>
+    </main>
 </body>
 </html>
