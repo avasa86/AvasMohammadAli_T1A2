@@ -1,12 +1,3 @@
-/*Stylig the content and background*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
-
-:root{
-    --white: #f9f9f9;
-    --black: #36383F;
-    --gray: #85888C;
-} /* variables*/
-
 /*Change the browser's default setting*/
 *{
     margin: 0;
@@ -14,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--white);
-    font-family: "Poppins", sans-serif;
+    background-color: white;
+    font-family: monospace;
 }
 a{
     text-decoration: none;
@@ -33,7 +24,7 @@ ul{
 /* Logo */
 .logo{
     display: inline-block;
-    color: var(--white);
+    color: white;
     font-size: 40px;
     margin-left: 10px;
 }
@@ -76,7 +67,7 @@ ul{
 
 .hamb-line::before,
 .hamb-line::after{
-    background: var(--white);
+    background: white;
     content: '';
     display: block;
     height: 100%;
