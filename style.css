@@ -7,6 +7,8 @@
 body{
     background-color: white;
     font-family: monospace;
+    width: 100%;
+    height:100%;
 }
 a{
     text-decoration: none;
@@ -14,6 +16,7 @@ a{
 ul{
     list-style: none;
 }
+
 /* Header */
 .header{
     background-color: #00235B;
@@ -105,9 +108,43 @@ ul{
     background-color: black;
     color: white;
 }
+
+.center{
+    text-align: center;
+}
+
+.intro-text{
+   font-size:100px;
+   display: flex;
+   flex-direction: column;
+}
+
+.degree-size{
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.experience-heading{
+    margin-left: 2.5%;
+    margin-top: 1%;
+    font-size:50px;
+}
+
+.experience-items{
+    margin-left: 2.5%;
+    margin-top:10px;
+    font-size: 0.5em;   
+}
+
+.experience-container{
+    border-left: 2px solid;
+}
+
 /* Make this content responsive*/
 @media (min-width: 768px) { /*minimum width to 768px for full navigation*/
     .nav{
+        height:44px;
         max-height: none;
         top: 0;
         position: relative;
