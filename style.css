@@ -137,7 +137,9 @@ ul{
     display: flex;
     flex-direction: column;
 }
-.card{
+
+
+.card-item{
     border: 2px solid;
     margin-left:2%;
     margin-top:2%;
@@ -168,18 +170,18 @@ ul{
 .skills-container{
     display: flex;
     flex-direction: column;
-    margin:10%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+}
+.progress-bar{
+    height: 30px;
 }
 
-.skills-row{
-    display: flex;
-    flex-direction: row;
-    gap: 10%;
+.font-sizers{
+    font-size: 50px; /*default font-size for skills heading*/
 }
 
-.skill-items{
-    display:flex;
-}
 /* Make this content responsive*/
 @media (min-width: 768px) { /*minimum width to 768px for full navigation*/
     .nav{
