@@ -125,22 +125,61 @@ ul{
     margin-top: 1%;
 }
 
-.experience-heading{
+.experience-parent-heading{
     margin-left: 2.5%;
     margin-top: 1%;
     font-size:50px;
 }
 
-.experience-items{
-    margin-left: 2.5%;
-    margin-top:10px;
-    font-size: 0.5em;   
-}
 
 .experience-container{
     border-left: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    border: 2px solid;
+    margin-left:2%;
+    margin-top:2%;
+    margin-right:1%;    
+    font-size: 0.5em;
+    border-radius: 10px;
 }
 
+.card::before{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid orangered;
+  
+}
+
+.experience-heading{
+    font-size: 1em;
+}
+.experience-content{
+    font-size: 0.75em;
+}
+
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    margin:10%;
+}
+
+.skills-row{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.skill-items{
+    display:flex;
+}
 /* Make this content responsive*/
 @media (min-width: 768px) { /*minimum width to 768px for full navigation*/
     .nav{
