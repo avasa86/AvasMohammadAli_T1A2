@@ -31,6 +31,12 @@ ul{
     font-size: 40px;
     margin-left: 10px;
 }
+.logo:hover{
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
 /*We will be styling the navigation menu from here onwards*/
 .nav{
     width: 100%; /*covers entire width of the screen*/
@@ -109,14 +115,20 @@ ul{
     color: white;
 }
 
-.center{
+.intro-center{
     text-align: center;
 }
 
 .intro-text{
-   font-size:100px;
+   margin-top:15%;
+   font-size:50px;
    display: flex;
    flex-direction: column;
+   color:white;
+}
+
+#button-me{
+    align-self:center;
 }
 
 .degree-size{
@@ -129,6 +141,7 @@ ul{
     margin-left: 2.5%;
     margin-top: 1%;
     font-size:50px;
+    color: #FFF3E2;
 }
 
 
@@ -138,8 +151,19 @@ ul{
     flex-direction: column;
 }
 
-
-.card-item{
+.experience-container > .card-item::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -45px;
+    top:10px;
+    border: 10px solid white
+}
+.experience-container > .card-item{
+    position: relative;
     border: 2px solid;
     margin-left:2%;
     margin-top:2%;
@@ -180,6 +204,7 @@ ul{
 
 .font-sizers{
     font-size: 50px; /*default font-size for skills heading*/
+    color: white;
 }
 
 #contact-me{
