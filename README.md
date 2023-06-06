@@ -19,6 +19,11 @@ This is my personal portfolio website that showcases my projects and skills.
 - CSS3
 - Bootstrap
 
+## Video Presentaion link
+`https://us06web.zoom.us/rec/share/mvmkfLLSIEUMJSSnlcxhfP6JjtahWPYkTag2SlzYwDZKhDi_eAZU6a6jrAY037od.GGqR-gS9BmYXQZou`
+
+Passcode: l31%eu05
+
 ## Getting Started
 
 1. Clone this repository: `git clone https://github.com/avasa86/AvasMohammadAli_T1A2.git`
@@ -41,8 +46,19 @@ The main files you may want to edit are:
 ## Sitemap
 ![Sitemap Image](./docs/sitemap_image.png)
 
-##Screenshots
-![Homepage Image](./docs/Home.png)
-## License
+## Screenshots
 
-This project is licensed under the [MIT License](LICENSE).
+![Homepage Image](./docs/Home.png)
+![Aboutme Image](./docs/Aboutme.png)
+![Education Image](./docs/Education.png)
+![Experience Image](./docs/Experience.png)
+![Skills Image](./docs/Skills.png)
+![Blog Image](./docs/Blog.png)
+![Form Image](./docs/Form.png)
+![Responsive Home Image](./docs/Responsive_Home.png)
+![Responsive About Image](./docs/Aboutme.png)
+![Responsive Education Image](./docs/Responsive_Education.png)
+![Responsive Experience Image](./docs/Responsive_Experience.png)
+![Responsive Blog Image](./docs/Responsive_Blog.png)
+![Responsive Form Image](./docs/Responsive_Form.png)
+![Responsive ]
