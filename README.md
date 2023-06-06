@@ -3,6 +3,12 @@
 
 This is my personal portfolio website that showcases my projects and skills.
 
+## Target Audience
+The target audience are:
+- Prospective Technology Employers
+- Developers
+- General audience with no technical background
+
 ## Features
 
 - Responsive design for optimal viewing on different devices
@@ -61,4 +67,4 @@ The main files you may want to edit are:
 ![Responsive Experience Image](./docs/Responsive_Experience.png)
 ![Responsive Blog Image](./docs/Responsive_Blog.png)
 ![Responsive Form Image](./docs/Responsive_Form.png)
-![Responsive ]
+
