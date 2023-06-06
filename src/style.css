@@ -380,7 +380,7 @@ input[type=text], select, textarea {
 
 
 /* Make this content responsive*/
-@media (min-width: 1100px) { /*minimum width to 768px for full navigation*/
+@media (min-width: 1100px) { /*minimum width to 1100px*/
     .nav{
         height:44px;
         max-height: none;
