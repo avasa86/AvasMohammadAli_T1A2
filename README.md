@@ -26,9 +26,7 @@ The target audience are:
 - Bootstrap
 
 ## Video Presentaion link
-`https://us06web.zoom.us/rec/share/mvmkfLLSIEUMJSSnlcxhfP6JjtahWPYkTag2SlzYwDZKhDi_eAZU6a6jrAY037od.GGqR-gS9BmYXQZou`
-
-Passcode: l31%eu05
+`https://www.youtube.com/watch?v=NPS3GvmOOJY`
 
 ## Getting Started
 
